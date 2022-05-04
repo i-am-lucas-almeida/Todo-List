@@ -1,4 +1,4 @@
-# Todo List | Registre suas terefas
+# Todo List | Registre suas tarefas
 
 ![todo-com netlify app_ (4)](https://user-images.githubusercontent.com/77863766/166617762-a3210a16-470c-42dd-ac17-ff903f06e9ee.png)
 ![todo-com netlify app_ (3)](https://user-images.githubusercontent.com/77863766/166617766-8e4dc9a2-0ac5-4602-88c0-0488787d0d9e.png)
