@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon-todo.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <title>Todo | Registre suas tarefas</title>
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="container">
+
+      <div class="title">
+
+        <h1 class="animate__animated animate__jello">Todo</h1>
+
+        <button id="btnTheme" class="theme-button animate__animated animate__jello"></button>
+
+      </div>
+
+      <form action="#">
+
+        <input type="text" name="item" id="inputItem" placeholder="Crie uma nova tarefa..." required>
+
+        <div class="circle-search"></div>
+
+      </form>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <div class="container">
+
+      <ul class="list"></ul>
+
+      <div class="dashboard">
+
+        <span class="counter-tasks"></span>
+
+        <button id="btnClear" class="button-clear">deletar tudo</button>
+
+      </div>
+
+      <div class="modal">
+
+        <div class="modal-c animate__animated animate__headShake">
+
+          <textarea name="textArea" id="textArea" placeholder="Editar tarefa..." required></textarea>
+
+          <div>
+
+            <aside class="created-task">
+
+              <p>criada em: &nbsp;</p>
+              <span class="date-task"></span>
+
+            </aside>
+
+            <div class="action-buttons">
+
+              <button id="btnConfirm" data-taskkey="">editar</button>
+
+              <button id="btnCancel">fechar</button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
